@@ -1,0 +1,232 @@
+@media (max-width: 805px) {
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer p {
+    width: 100%;
+    color: rgb(77, 77, 77);
+    margin-top: 35px;
+    line-height: 25px;
+  }
+  .our-mission {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0;
+  }
+  .contact-information-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-section {
+    padding-left: 7%;
+  }
+  .contact-us {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .contact-phone-location-section {
+    border-right: none;
+  }
+  .contact-us-right  {
+    margin-left: 0;
+  }
+  .our-mission {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 660px) {
+  .frequently-asked-container h1 {
+    font-size: 25px;
+    color: rgb(33, 33, 33);
+  }
+  .frequently-asked-container p {
+    text-align: center;
+  }
+  .our-mission {
+    height: 70vh;
+  }
+  .frequently-asked-container span {
+    text-align: center;
+  }
+}
+/* contact section */
+
+
+@media(max-width: 1557px){
+  #message-error{
+    position: absolute;
+    top: 70%;
+  }
+  #name-error{
+    position: absolute;
+    right: 25%;
+  }
+  #email-error{
+    position: absolute;
+    right: 25%;
+  }
+}
+@media(max-width:1363px){
+  #name-error{
+    position: absolute;
+    top: 44%;
+    right:20%;
+    font-size: 14px;
+  }
+  #email-error{
+    position: absolute;
+    top: 55%;
+    right:20%;
+    font-size: 14px;
+  }
+  #message-error{
+    position: absolute;
+    top: 90%;
+    right: 16%;
+  }
+}
+@media(max-width:1117px){
+  #name-error{
+    position: absolute;
+    right: 10%;
+  }
+  #email-error{
+    position: absolute;
+    right: 10%;
+  }
+  #message-error{
+    top: 87%;
+  }
+}
+@media(max-width:939px){
+  #name-error{
+    position: absolute;
+    right: 15%;
+    top: 42%;
+
+  }
+  #email-error{
+    position: absolute;
+    right: 15%;
+    top: 53%;
+
+  }
+}
+@media(max-width:901px){
+  #name-error{
+    position: absolute;
+    top: 82%;
+  }
+  #email-error{
+    position: absolute;
+    top: 93%;
+  }
+  #message-error{
+    position: absolute;
+    top: 120%;
+  }
+}
+@media(max-width:544px){
+  #name-error{
+    position: absolute;
+    right: 10%;
+    top: 80%;
+  }
+  #email-error{
+    position: absolute;
+    right: 10%;
+    top: 91%;
+  }
+}
+@media(max-width: 472px){
+  #name-error{
+    position: absolute;
+    top: 85%;
+    right: 14%;
+  }
+  #email-error{
+    position: absolute;
+    top: 96%;
+    right: 14%;
+  }
+  #message-error{
+    position: absolute;
+    right: 12%;
+    top: 130%;
+  }
+}
+@media(max-width:357px){
+  #name-error{
+    position: absolute;
+    top: 90%;
+    font-size: 12px;
+  }
+  #email-error{
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+  }
+  #message-error{
+    font-size: 12px;
+  }
+}
+@media(max-width:325px){
+  #name-error{
+    position: absolute;
+    top: 93%;
+    font-size: 12px;
+  }
+  #email-error{
+    position: absolute;
+    top: 105%;
+    font-size: 12px;
+  }
+  #message-error{
+    position: absolute;
+    top: 140%;
+  }
+}
+@media(max-width:1038px){
+  .input-group input{
+    width: 80%;
+
+  }
+  .message-group #text-area{
+    width: 84%;
+  }
+
+}
+@media(max-width: 868px) {
+  .input-group input{
+    margin-left: 60px;
+  }
+  .message-group #text-area{
+    margin-left: 60px;
+  }
+  #send{
+    margin-left: 60px;
+  }
+}
+@media(max-width:474px){
+  .input-group input{
+    width: 70%;
+  }
+  .message-group #text-area{
+    width: 74%;
+  }
+}
+/* frequintly asked question responsive */
+@media(max-width:699px){
+  .frequently-asked-container{
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+}

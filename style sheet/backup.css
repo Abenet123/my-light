@@ -1,0 +1,20 @@
+.hero{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+
+
+#col1 {
+  font-size: 16px;
+  padding: 10px 0px 10px;
+}
+#col2 {
+  font-size: 14px;
+  color: rgb(207, 195, 195);
+  padding-top: 5px;
+}
+.param {
+  padding: 10px;
+}

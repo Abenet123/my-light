@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style sheet/contact.css">
+  <link rel="stylesheet" href="./style sheet/contactResponsive.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="/style sheet/contactResponsive.css">
+  <title>Light Burger</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact</h1>
+    <div class="contact-info-section" >
+      <div class="contact-information-section">
+        <div class="contact-phone-location-section">
+
+          
+          <div class="contact-us">
+            <div class="contact-us-left">
+              <i aria-hidden="true" class="fas fa-lg fa-mobile-alt"></i>
+            </div>
+            <div class="contact-us-right">
+              <span>Products & order</span>
+              <p>(+1) 123-456-7890 available 24/7</p>
+            </div>
+          </div>
+          
+          
+          <div class="contact-us">
+            <div class="contact-us-left">
+              <i aria-hidden="true" class="fas fa-lg fa-mobile-alt"></i>
+            </div>
+            <div class="contact-us-right">
+              <span>Info & enquiries</span>
+              <p>(+1) 123-456-7890 available 24/7</p>
+            </div>
+          </div>
+  
+          <div class="contact-us">
+            <div class="contact-us-left">
+            </div>
+          </div>
+          
+         
+        </div>
+        <div class="contact-section">
+          <form action="">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Full Name" onkeyup="validateName();">
+              <span id="name-error"> </span>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Email" onkeyup="validateEmail();">
+              <span id="email-error"></span>
+            </div>
+            <div class="message-group">
+              <textarea name="" id="text-area" cols="80" rows="10" placeholder="enter your message....." onkeyup="validateMessage();"></textarea>
+              <span id="message-error"> </span>
+            </div>
+            <button id="send">Send</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="frequently-asked-container">
+    <h1>Frequently Asked Questions</h1>
+    <span>Frequently Asked Questions About Light Burger&apos;s Menu and Services</span>
+          <div class="faq-container js-faq-container">
+
+    </div>
+  </div>
+
+
+
+  <div class="our-mission">
+    <div class="our-mission-text">
+      <h1>Our Mission</h1>
+      <p>At Light Burger, our mission is to provide our customers with high-quality food and fast, friendly service. We believe in using only the freshest and healthiest ingredients and are committed to sustainability and reducing our environmental impact. We&apos;re passionate about food and are dedicated to making sure that every customer has a great dining experience.
+      </p>
+      <div class="button-content">
+        <button>Food</button>
+        <button>Breakfast</button>
+      </div>
+      
+    </div>
+  </div>
+   <div class="google-map">
+    <h2 id="map"> Our Location</h2>
+    <p id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5554019363526!2d38.48439861081979!3d7.061409016648835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b14ff10d9131b5%3A0xb7deb16c8cbe6038!2sLight%20Burger%20and%20Chicken!5e0!3m2!1sen!2set!4v1697237640856!5m2!1sen!2set" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+   </div>
+  <div class="footer-section">
+    <div class="footer">
+      <span>Light Burger</span>
+      <p>Stay connected with Light Burger by following us on social media. We love to hear from our customers and share news and updates about our menu and promotions.</p>
+       <h3 id="Stay" >Stay in Touch</h3>
+        <div class="footer-social-media">
+          <a href="https://www.tiktok.com/@lightburgernchicken?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a>
+          <a href="https://t.me/lightburgernchicken"><i class="fa-brands fa-telegram" style="color: #155ad1;"></i></a>
+          <a href="https://www.instagram.com/light_burgerhawassa/"><i class="fa-brands fa-instagram" style="color: #d21985;"></i></a>
+        </div>
+    </div>
+    <div class="footer">
+      <span>Shop</span>
+      <div class="lined-footer">
+        <a href="">Dinner</a>
+        <a href="">Food</a>
+        <a href="">Breakfast</a>
+      </div>
+    </div>
+    <div class="footer">
+      <span>About</span>
+      <div class="lined-footer">
+        <a href="index.html">Home</a>
+        <a href="">Contact</a>
+      </div>
+    </div>
+    <div class="footer">
+      <span>Need Help?</span>
+      <div class="lined-footer">
+        <a href="">Shop</a>
+        <a href="">My account</a>
+        <a href="">Cart</a>
+        <a href="">Checkout</a>
+      </div>
+    </div>
+  </div>
+  <script src="/script js/frequentlyAskedQuestion.js">
+  </script>
+  <script src="/script js/contact.js">
+  </script>
+</body>
+</html>

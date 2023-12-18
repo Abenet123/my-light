@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* contact page css */
+.contact-info-section {
+  background-color: rgb(243, 244, 246);
+  padding-bottom: 7%;
+}
+.container {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.container h1 {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+}
+.contact-information-section {
+  display: flex;
+  padding-top: 5%;
+}
+.contact-phone-location-section {
+  flex-basis: 35%;
+  border-right: 1px solid rgb(77, 77, 77);
+}
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-section {
+  flex-basis: 60%;
+  padding-left: 3%;
+}
+.contact-form-section button {
+  margin-top: 20px;
+  width: 160px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(34, 34, 34);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+} 
+.contact-form-section button:hover {
+  background-color: #2270E2;
+}
+
+.red-asterisk {
+  color: red; 
+  margin-left: 5px; 
+}
+
+.contact-form-section-input textarea {
+  width: 95%;
+  font-size: 16px;
+}
+.contact-form-section-input p {
+  color: rgb(77, 77, 77);
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.contact-us-right span {
+  color: rgb(33, 33, 33);
+  font-size: 24px;
+}
+
+.contact-us-left, .contact-us-right {
+  margin-top: 10px;
+}
+.contact-us-right  {
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(77, 77, 77);
+}
+.fas {
+  color: rgb(77, 77, 77);
+}
+.contact-us-right p {
+  color: rgb(77, 77, 77);
+  font-size: 16px;
+}
+.contact-us {
+  display: flex;
+  padding: 0 20px;
+  margin: 0 60px ;
+}
+.contact-footer {
+  margin: 0 60px ;
+}
+.contact-footer p{
+  font-size: 20px;
+}
+.contact-footer-social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+.contact-footer-social-media i{
+  font-size: 22px;
+}
+/* new style */
+.input-group input{
+  width: 90%;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#text-area{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* contact page css ends */
+
+
+
+/* faq css starts */
+.frequently-asked-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.frequently-asked-container h1 {
+  font-size: 40px;
+  color: rgb(33, 33, 33);
+  
+}
+.frequently-asked-container p {
+  color: rgb(77, 77, 77);
+  margin-top: 0;
+  border-top: 1px solid rgb(33, 33, 33);
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.frequently-asked-container span {
+  padding-bottom: 2%;
+}
+.faq-container {
+  border: 1px solid rgb(77, 77, 77);
+  width: 670px;
+  max-width: 100%;
+  padding-right: 20px;
+}
+.faq-item {
+  border-bottom: 1px solid rgb(77, 77, 77);
+  cursor: pointer;
+}
+.faq-question {
+  color: rgb(33, 33, 33);
+  padding-left: 3%;
+} 
+.faq-answer {
+  display: none;
+  padding-right: 5%;
+  color: rgb(77, 77, 77);
+}
+.faq-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.faq-child i{
+  font-size: 20px;
+  margin-right: 20px;
+}
+/* faq css ends */
+
+/* our mission */
+
+.our-mission {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./image/206535500-traditional-italian-pizza-on-dark-table-generative-ai.jpg);;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.our-mission-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  padding: 0 13%;
+  text-align: center;
+  color: white;
+}
+
+.button-content button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.button-content button:hover {
+  background-color: #2270E2;
+  color: white;
+}
+/* our mission */
+/* google maps */
+#google-map{
+  display: flex;
+  justify-content: center;
+}
+
+#map{
+  text-align: center;
+  font-size: 23px;
+  padding: 20px;
+  color: blue;
+  font-family: sans-serif;
+}
+/* google map */
+
+.footer-section {
+  display: flex;
+  column-gap: 20px;
+  margin: 0 10%;
+  padding: 5% 0;
+}
+.footer {
+  flex-basis: 25%;
+  height: 40vh;
+}
+.footer span{
+  font-size: 24px;
+}
+
+.footer a{
+  display: block;
+  margin-bottom: 15px;
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+}
+
+.footer p {
+  width: 200px;
+  color: rgb(77, 77, 77);
+  margin-top: 35px;
+  line-height: 25px;
+}
+.lined-footer {
+  margin-top: 35px;
+}
+.footer-social-media {
+  display: flex;
+  margin-top: 20px;
+
+}
+.footer-social-media i {
+  margin-left: 10px;
+  font-size: 20px;
+  
+}
+.footer-social-media a{
+  padding-left: 14px;
+}
+#Stay{
+  font-family: monospace;
+}
+/* form validation */
+#name-error{
+  position: absolute;
+  top: 38%;
+  right: 24%;
+  color: red;
+}
+#email-error{
+  position: absolute;
+  top: 47%;
+  right: 24%;
+  color: red;
+}
+#message-error{
+  position: absolute;
+  right: 25%;
+  top: 75%;
+  color: red;
+}
+#send{
+  padding: 10px 32px;
+  background-color: rgb(7, 176, 223);
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: none;
+  transition: 0.4s ease-in-out;
+}
+#send:hover{
+  background-color: green;
+}
+
